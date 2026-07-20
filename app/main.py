@@ -10,7 +10,8 @@ def read_root():
 
 @app.get("/health")
 def health_check():
-    return {"status": "o
+    return {"status": "ok"}
+
 
 
 @app.get("/db-check")
